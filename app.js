@@ -6,15 +6,15 @@ const port = 3000;
 
 app.get('/home', (req, res) => {
   res.send('home 페이지 입니다')
-))
+})
 
 app.get('/login', (req, res) => {
   res.send('login 페이지 입니다')
-))
+})
 
 app.get('/profile', (req, res) => {
   res.send('profile 페이지 입니다')
-))
+})
 
 
 app.listen(port, () => {
